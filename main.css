@@ -135,7 +135,7 @@ h2 { color:#b6a6f6;
 
    
 footer {
-    background-color: #696b74;
+    background-color: #24252A;
     border-top: 5px solid #58d1f9;
     bottom: 0px;
     color:rgb(253, 255, 254);
@@ -179,38 +179,39 @@ footer ul li {
 }
 
 .container__left {
-    
-    border-right: 2px solid rgb(195, 238, 247);
+    background-color: #4c4d52;
     flex-basis: 20%;
-    width: 25%;
     flex-wrap: wrap;  
 }
 
 .container__middle {
     /* Take the remaining width */
     flex-grow: 1;
-    flex-basis: 50%;
+    flex-basis: 80%;
+    line-height: 1.5;
+    text-justify: newspaper;
     padding: 10px;
-    line-height: 30px;
+   
 }
 
 .container__left ul {
+
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    height: 100vh;
-    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    height: 80%;
+    justify-content:space-between;
     margin: 0 10px;
    
 }
 
 .container__left ul li {
-    background-color: #3da1c2;
-    border-radius: 30px;
+    background-color:#4c4d52;
+    border-bottom: 2px solid black;
     color:#cae2e2;
     font-family: 'Bitter', serif;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 300;
+    font-size: 16px;
     list-style-type: none;
     padding: 10px;
     position:relative;
@@ -240,14 +241,14 @@ footer ul li {
 
 
 .exlink {
-    background-color: #8b3cc8;
+    background-color: #518092;
     border-radius: 5px;
     padding: 3px;
 }
 
 
 .exlink:hover {
-    color: #86e0f7;
+    color: #060808;
     transition: all 0.5s ease 0s;
     
 }
@@ -314,4 +315,9 @@ textarea{
 form button {
     align-self: center;
     width: 40%;
+}
+
+.container__middle ol {
+    list-style-type:upper-roman;
+    margin-left: 30px;
 }
