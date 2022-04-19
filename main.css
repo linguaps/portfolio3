@@ -173,12 +173,14 @@ footer ul li {
     /* Layout the left sidebar, main content and right sidebar */
     display: flex;
     flex-direction: row;
+    padding-bottom: 45px;
 }
 
 .container__left {
     background-color: #4c4d52;
     flex-basis: 20%;
     flex-wrap: wrap;  
+    padding-bottom: 45px;
 }
 
 .container__middle {
@@ -220,7 +222,7 @@ footer ul li {
 
 .container__left ul li:hover {
     background-color: #036e89;
-    transition: all 0.5s ease 0s;
+    transition: all 0.7s ease 0s;
     position:relative;
     top:-10px;  
 }
@@ -278,29 +280,36 @@ footer ul li {
 
 .formContainer{
     background-color: #696b74;
-    display:grid;
-    height: 50vh;
-    padding:5px;
+    padding: 20px;
+    max-height: 600px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 form {
+
     background-color: #bfc5c5;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 20px 0;
+
 }
 
 label {
-    background-color: #78c2d1;
+    background-color: rgba(0,136,169,1);
     border:1px solid black;
-    border-radius: 10%;
+
     color: #24252A;
+    display:inline-block;
+    margin-top:10px;
     padding: 5px;
     
 }
 
 input, textarea {
     color: #24252A;
+    margin-top: 10px;
 }
 
 textarea{
