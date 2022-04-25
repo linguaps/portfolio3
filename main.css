@@ -342,8 +342,9 @@ form button {
     padding:15px;
 }
 #mainquote {
+    border: 5px solid #4c4d52;
     text-align: center;
-    background-color: #4c494b;
+    background-color: #24252A;
     height:fit-content;
     margin: 10px auto;
     width:20rem;
@@ -351,6 +352,56 @@ form button {
     position:static;
     
 }
+
 #credit {
     text-align:center;
 }
+.icon {
+    display: none;
+  }
+
+    /*Media Queries*/
+   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 752px) {
+    
+    .navlinks li:not(:first-child) {display: none;}
+   
+    .highnav {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+    }
+    .icon {
+        display: block;
+        align-self: center;
+      }
+
+      .responsive {
+          display: flex;
+          flex-direction: column; 
+      }
+    
+    }
+
+    @media screen and (max-width: 485px) {
+    
+        .navlinks li:not(:first-child) {display: none;}
+       
+        .highnav {
+            display: flex;
+            flex-direction: row;
+            justify-content:space-around;
+        }
+        .icon {
+            display: block;
+            align-self: center;
+          }
+    
+          .responsive {
+              display: flex;
+              flex-direction: column; 
+          }
+        
+        }
+
+     
