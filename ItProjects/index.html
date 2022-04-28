@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Portfolio of Lingua</title>
     <link href="/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
     <div class="container">
         <header>
-            <nav>     
-                <ul class="navlinks">
+            <nav class="highnav">  
+                <ul class="navlinks" id="myTopnav">
                     <li><a href="/index.html"><img class="logo" src="/images/logo.png" alt="logo"></a></li>
                     <li><a href="/index.html">Home</a></li> 
                     <li><a href="/aboutMe/index.html">About Me</a></li>
@@ -20,7 +21,11 @@
                     <li><a href="/PersonalSpace/index.html">Personal Space</a></li>
                     <li><a href="/More/index.html">More</a></li>
                     <li><a href="/Contact/index.html"><button>Contact</button></a></li>
-                 </ul>
+                </ul>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    </a> 
+                 
              </nav>
                    
          
@@ -95,5 +100,6 @@
     
         </ul>
     </footer>
+    <script src="/main.js"></script>
 </body>
 </html>

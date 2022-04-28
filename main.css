@@ -409,6 +409,6 @@ form button {
             border: 5px solid rgb(85, 82, 82);
             border-radius: 10px;
             display: flex;
-            flex-direction: column; 
-          }
+            flex-direction: column;
+           }
         }
