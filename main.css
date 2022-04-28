@@ -425,6 +425,7 @@ form button {
         display: flex;
         flex-direction: column;
     }
+
     .container__middle {
         max-width: 50vh;
     }
@@ -459,6 +460,8 @@ form button {
         text-align: center;
     }
 
-  
+    form button {
+        width:max-content;   
+    }  
 
 }
